@@ -1,8 +1,9 @@
 {
   "name": "@dockit/plugin-sdk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Dockit plugin browser bridge, manifest validation and packaging tools",
   "author": "nokryong",
+  "scripts": { "test": "node --test tests/*.test.cjs" },
   "main": "manifest.cjs",
   "bin": { "dockit-plugin-pack": "package.cjs" },
   "exports": { ".": "./manifest.cjs", "./package": "./package.cjs", "./icons": "./icons.cjs", "./browser": "./browser.js" },
